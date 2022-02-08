@@ -1,0 +1,80 @@
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\bin\Debug\TokoMaterial_App.exe.config
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\bin\Debug\TokoMaterial_App.exe
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\bin\Debug\TokoMaterial_App.pdb
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\bin\Debug\TokoMaterial_App.xml
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.vbprojResolveAssemblyReference.cache
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Form1.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Resources.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.TokoMaterial.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.vbproj.GenerateResource.Cache
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.exe
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.xml
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.pdb
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.barang.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Customer.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Daftar_Customer.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Daftar_Supplier.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.diskon.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.karyawan.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Kategori.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.koneksi_konf.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.konf_user.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Laporan_Pembelian.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.lap_brg.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Lap_diskon.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Lap_penjualan.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.lap_sampel.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Lap_stok.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.pembelian.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Penjualan.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.sampel.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.satuan.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.stok.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.supplier.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Nota_Sampel.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\bin\Debug\xml\koneksi.xml
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\bin\Debug\xml\koneksi.xsd
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.tent_harga.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Pre_Sampel.resources
+C:\Users\danar dono\Desktop\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Pre_Jual.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\bin\Debug\TokoMaterial_App.exe.config
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.exe
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.xml
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.pdb
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.vbprojResolveAssemblyReference.cache
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.barang.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Customer.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Daftar_Customer.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Daftar_Supplier.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.diskon.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Form1.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.karyawan.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Kategori.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.koneksi_konf.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.konf_user.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Laporan_Pembelian.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.lap_brg.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Lap_diskon.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Lap_penjualan.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.lap_sampel.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Lap_stok.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Resources.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Nota_Sampel.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.pembelian.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Penjualan.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Pre_Jual.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Pre_Sampel.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.sampel.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.satuan.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.stok.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.supplier.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.tent_harga.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.TokoMaterial.resources
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.vbproj.GenerateResource.Cache
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\bin\Debug\xml\koneksi.xml
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\bin\Debug\xml\koneksi.xsd
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\bin\Debug\TokoMaterial_App.exe
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\bin\Debug\TokoMaterial_App.pdb
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\bin\Debug\TokoMaterial_App.xml
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\bin\Debug\MySql.Data.dll
+C:\Users\danar dono\Desktop\semester 7\KP\Aplikasi\TokoMaterial\TokoMaterial_App\TokoMaterial_App\obj\Debug\TokoMaterial_App.Preview.resources

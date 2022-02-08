@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C9246A0D-A2AE-4FB6-9D6E-E2BDA284ECEE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>TokoMaterial_App.My.MyApplication</StartupObject>
+    <RootNamespace>TokoMaterial_App</RootNamespace>
+    <AssemblyName>TokoMaterial_App</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TokoMaterial_App.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TokoMaterial_App.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="MySql.Data, Version=6.2.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\mysql_lib\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="barang.Designer.vb">
+      <DependentUpon>barang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="barang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrDaftarBarang.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrDaftarBarang.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrDaftarCustomer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrDaftarCustomer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrDaftarPersediaanKeluar.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrDaftarPersediaanKeluar.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrDaftarPersediaanMasuk.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrDaftarPersediaanMasuk.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrDaftarSuplier.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrDaftarSuplier.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrDiskon.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrDiskon.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrNotaPembelian.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrNotaPembelian.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrNotaPenjualan.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrNotaPenjualan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrNotaSampel.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrNotaSampel.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrPembelianPeriodik.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrPembelianPeriodik.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrPenjualanPeriodik.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrPenjualanPeriodik.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrPermintaanBarang.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrPermintaanBarang.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrPersediaanAktual.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrPersediaanAktual.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrPersediaanKeluar.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrPersediaanKeluar.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrPersediaanMasuk.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrPersediaanMasuk.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrPromoAktual.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrPromoAktual.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrSampelPeriodik.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrSampelPeriodik.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrSuratJalan_DO.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrSuratJalan_DO.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrTopBarang.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrTopBarang.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrTopCustomer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrTopCustomer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrTopSupplier.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrTopSupplier.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Customer.Designer.vb">
+      <DependentUpon>Customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="diskon.Designer.vb">
+      <DependentUpon>diskon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="diskon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="karyawan.Designer.vb">
+      <DependentUpon>karyawan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="karyawan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kategori.Designer.vb">
+      <DependentUpon>Kategori.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kategori.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="koneksi_konf.Designer.vb">
+      <DependentUpon>koneksi_konf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="koneksi_konf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="konf_user.Designer.vb">
+      <DependentUpon>konf_user.vb</DependentUpon>
+    </Compile>
+    <Compile Include="konf_user.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan.Designer.vb">
+      <DependentUpon>Laporan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Nota_Sampel.Designer.vb">
+      <DependentUpon>Nota_Sampel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nota_Sampel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pembelian.Designer.vb">
+      <DependentUpon>pembelian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pembelian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Penjualan.Designer.vb">
+      <DependentUpon>Penjualan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Penjualan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perbarui Persediaan.Designer.vb">
+      <DependentUpon>Perbarui Persediaan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Perbarui Persediaan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preview.Designer.vb">
+      <DependentUpon>Preview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Preview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sampel.Designer.vb">
+      <DependentUpon>sampel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sampel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="satuan.Designer.vb">
+      <DependentUpon>satuan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="satuan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stok.Designer.vb">
+      <DependentUpon>stok.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stok.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="supplier.Designer.vb">
+      <DependentUpon>supplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="supplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tent_harga.Designer.vb">
+      <DependentUpon>tent_harga.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tent_harga.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TokoMaterial.Designer.vb">
+      <DependentUpon>TokoMaterial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TokoMaterial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaksi_Pembelian.Designer.vb">
+      <DependentUpon>Transaksi_Pembelian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi_Pembelian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaksi_Penjualan.Designer.vb">
+      <DependentUpon>Transaksi_Penjualan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi_Penjualan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaksi_Promo.Designer.vb">
+      <DependentUpon>Transaksi_Promo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi_Promo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaksi_Sampel.Designer.vb">
+      <DependentUpon>Transaksi_Sampel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi_Sampel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="barang.resx">
+      <DependentUpon>barang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrDaftarBarang.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDaftarBarang.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrDaftarCustomer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDaftarCustomer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrDaftarPersediaanKeluar.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDaftarPersediaanKeluar.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrDaftarPersediaanMasuk.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDaftarPersediaanMasuk.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrDaftarSuplier.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDaftarSuplier.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrDiskon.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrDiskon.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrNotaPembelian.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrNotaPembelian.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrNotaPenjualan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrNotaPenjualan.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrNotaSampel.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrNotaSampel.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrPembelianPeriodik.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrPembelianPeriodik.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrPenjualanPeriodik.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrPenjualanPeriodik.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrPermintaanBarang.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrPermintaanBarang.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrPersediaanAktual.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrPersediaanAktual.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrPersediaanKeluar.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrPersediaanKeluar.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrPersediaanMasuk.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrPersediaanMasuk.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrPromoAktual.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrPromoAktual.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrSampelPeriodik.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrSampelPeriodik.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrSuratJalan_DO.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrSuratJalan_DO.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrTopBarang.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrTopBarang.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrTopCustomer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrTopCustomer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrTopSupplier.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrTopSupplier.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer.resx">
+      <DependentUpon>Customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="diskon.resx">
+      <DependentUpon>diskon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="karyawan.resx">
+      <DependentUpon>karyawan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kategori.resx">
+      <DependentUpon>Kategori.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="koneksi_konf.resx">
+      <DependentUpon>koneksi_konf.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="konf_user.resx">
+      <DependentUpon>konf_user.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan.resx">
+      <DependentUpon>Laporan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nota_Sampel.resx">
+      <DependentUpon>Nota_Sampel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pembelian.resx">
+      <DependentUpon>pembelian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Penjualan.resx">
+      <DependentUpon>Penjualan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perbarui Persediaan.resx">
+      <DependentUpon>Perbarui Persediaan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview.resx">
+      <DependentUpon>Preview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sampel.resx">
+      <DependentUpon>sampel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="satuan.resx">
+      <DependentUpon>satuan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok.resx">
+      <DependentUpon>stok.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="supplier.resx">
+      <DependentUpon>supplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tent_harga.resx">
+      <DependentUpon>tent_harga.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TokoMaterial.resx">
+      <DependentUpon>TokoMaterial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaksi_Pembelian.resx">
+      <DependentUpon>Transaksi_Pembelian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaksi_Penjualan.resx">
+      <DependentUpon>Transaksi_Penjualan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaksi_Promo.resx">
+      <DependentUpon>Transaksi_Promo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaksi_Sampel.resx">
+      <DependentUpon>Transaksi_Sampel.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="xml\koneksi.xsd">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_toko.png" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\icon.png" />
+    <None Include="Resources\login.ico" />
+    <None Include="Resources\gdm_login_photo - edit.png" />
+    <None Include="Resources\toolbar_find.png" />
+    <None Include="Resources\find.png" />
+    <None Include="Resources\user_male_add.png" />
+    <None Include="Resources\filesaveas%281%29.png" />
+    <None Include="Resources\filesaveas - edit.png" />
+    <None Include="Resources\cancel.png" />
+    <None Include="Resources\clear.png" />
+    <None Include="Resources\edit_clear.png" />
+    <None Include="Resources\arrow_refresh.png" />
+    <None Include="Resources\refresh%282%29.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\increase.png" />
+    <None Include="Resources\new_doc.png" />
+    <None Include="Resources\document_save.png" />
+    <None Include="Resources\printer_off.png" />
+    <None Include="Resources\printer%281%29.png" />
+    <None Include="Resources\find1.png" />
+    <None Include="Resources\write.png" />
+    <None Include="Resources\login.png" />
+    <None Include="Resources\Aha-Soft-Perfect-Transport-Panel-truck.ico" />
+    <None Include="Resources\Actions-mail-receive-icon.png" />
+    <Content Include="xml\koneksi.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
